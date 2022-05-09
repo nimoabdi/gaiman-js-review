@@ -35,3 +35,33 @@ else if (age <56) {
 }
 
 // functions
+
+function sayHello(name) {
+    console.log(`Hello ${name}`);
+}
+
+// declaring function
+function makeASentence(words) {
+return words.join(' ') + '.';
+}
+
+
+// calling function
+makeASentence(['Welcome', 'to', 'Gaiman']);
+// anonymous function
+let makeASentence2 = function(words) {
+    return words.join(' ') + '.';
+}
+//arrow function
+let makeASentence3 = (words) => {
+    return words.join(' ') + '.';
+}
+// one liner
+let makeASentence4 = words =>  words.join(' ') + '.';
+
+// log is a method of the console object
+console.log('yolo');
+
+let numbers = [1, 2, 3, 4, 5];
+//push() is a method of the numbers array
+numbers.push(6);
