@@ -42,7 +42,7 @@ function sayHello(name) {
 
 // declaring function
 function makeASentence(words) {
-return words.join(' ') + '.';
+    return words.join(' ') + '.';
 }
 
 
@@ -70,6 +70,8 @@ numbers.push(6);
 
 let animals = ['cat', 'dog', 'bunny'];
 
+animals.push('newt', 'lion', 'flamingo');
+
 let firstAnimal = animals[0]; // 'cat'
 //let lastAnimal = animals[2];  // 'bunny'
 let lastAnimal = animals[animals.length -1]; /// 'bunny'
@@ -94,6 +96,6 @@ for ( let i =0; i < 1000; i +=5) {
 
 let bigNumber = 2**20;
 while (bigNumber > 1) {
-bigNumber = bigNumber / 2;
-console.log(bigNumber);
+    bigNumber = bigNumber / 2;
+    console.log(bigNumber);
 }
