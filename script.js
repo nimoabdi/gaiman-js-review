@@ -83,3 +83,11 @@ for (let animal of animals) {
         console.log('bunny bunny bunny');
     }
 }
+
+for (let i = 0; i < animals.length; i++) {
+    console.log(animals[i]);
+}
+
+for ( let i =0; i < 1000; i +=5) {
+    console.log(i)
+}
