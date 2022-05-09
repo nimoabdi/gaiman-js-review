@@ -65,3 +65,21 @@ console.log('yolo');
 let numbers = [1, 2, 3, 4, 5];
 //push() is a method of the numbers array
 numbers.push(6);
+
+// arrays
+
+let animals = ['cat', 'dog', 'bunny'];
+
+let firstAnimal = animals[0]; // 'cat'
+//let lastAnimal = animals[2];  // 'bunny'
+let lastAnimal = animals[animals.length -1]; /// 'bunny'
+//animals.length - 1= 2
+// animals[2];  //'bunny'
+
+for (let animal of animals) {
+    // animals = 'cat';
+    console.log('animals is', animal);
+    if (animal === 'bunny') {
+        console.log('bunny bunny bunny');
+    }
+}
