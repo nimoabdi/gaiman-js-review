@@ -91,3 +91,9 @@ for (let i = 0; i < animals.length; i++) {
 for ( let i =0; i < 1000; i +=5) {
     console.log(i)
 }
+
+let bigNumber = 2**20;
+while (bigNumber > 1) {
+bigNumber = bigNumber / 2;
+console.log(bigNumber);
+}
